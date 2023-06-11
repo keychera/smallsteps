@@ -1,4 +1,11 @@
+# java
 *.class
 *.jar
 
+# any
 draft.md
+
+# clojure
+lotto.clj
+.clj-kondo
+.lsp
