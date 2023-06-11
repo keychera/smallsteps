@@ -1,6 +1,6 @@
 # smallsteps
 
-1. Hello Java!
+## [1] Hello Java!
 
 ```sh
 java Hello.java
@@ -18,7 +18,7 @@ java Hello
 # => Hello, Java!
 ```
 
-2. My friend can HelpMe
+## [2] My friend can HelpMe
 ```sh
 # new file HelpMe.java, Hello uses HelpMe
 
@@ -27,7 +27,7 @@ java Hello
 # => Greetings, Java
 ```
 
-2.5 preparing helper from another world
+## [2.5] preparing helper from another world
 ```sh
 # install babashka
 bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
