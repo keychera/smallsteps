@@ -36,7 +36,7 @@ java Hello
 # install babashka
 bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
 
-# run lotto.clj, a mock server for the example for https://rest-assured.io/ homepage
+# run lotto.clj, a mock server for the example from https://rest-assured.io/ homepage
 bb -e "(load-string (slurp \"https://gist.githubusercontent.com/keychera/75128c639bd9c21bc7e079cd00d858f6/raw/25fd1643aa226cccb9f933c682f289716516cf1c/lotto.clj\"))"
 ```
 
@@ -44,7 +44,7 @@ bb -e "(load-string (slurp \"https://gist.githubusercontent.com/keychera/75128c6
 
 Let's use the library RESTAssured to test the mock server we have
 
-copying example code from 
+copying the example code from https://rest-assured.io/
 
 ```java
 when().
@@ -55,7 +55,7 @@ then().
          "lotto.winners.winnerId", hasItems(23, 54));
 ```
 
-add some import statics specified [here](https://github.com/rest-assured/rest-assured/wiki/Usage#static-imports) in our Hello.java
+and also add some import statics specified [here](https://github.com/rest-assured/rest-assured/wiki/Usage#static-imports) in our Hello.java
 ```java
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
