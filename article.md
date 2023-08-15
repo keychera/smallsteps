@@ -34,7 +34,7 @@ a group of caveman prepares to hunt a mammoth, but first, they have to check the
 
 There are some more "software" that we were gonna need, but first I want to have a look at the mammoth that we're gonna hunt. which is located in the http://rest-assured.io homepage accessed on 13 August 2023. The example code of Rest-assured. (I have to be specific on the date so the 12th reader of this article reading this on 2123 might not be confused if the website is changed by then)
 
-![Rest-assured.io homepage](img\rest-assured-homepage.png)
+![Rest-assured.io homepage](img/rest-assured-homepage.png)
 
 Our goal is to run that Java code.
 
@@ -45,5 +45,5 @@ So moving on to the remaining things we're gonna use, we will need:
     Which you probably have used already to access that homepage, the Browsers, or `curl` that is usually already pre-installed in your devices. You can use either one but I suggest to have both ready because some of the steps we're gonna take will are faster to be done in the browser and some other are faster with curl
 
 5. a software called Babashka
-
+(to be continued...)
     
